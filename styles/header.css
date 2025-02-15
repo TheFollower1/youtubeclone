@@ -10,6 +10,7 @@
 
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid rgb(230, 230, 230);
+  z-index: 100;
 }
 
 .left-section {
@@ -88,6 +89,7 @@
   justify-content: space-between;
   margin-right: 20px;
   flex-shrink: 0;
+  position: relative;
 }
 
 .upload-icon {
@@ -107,3 +109,19 @@
   border-radius: 18px;
 }
 
+.notification-counter {
+  position: absolute;
+  background-color: rgb(206, 39, 39);
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 9px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  top: 11px;
+  right: 49px;
+  border:2px solid white;
+}
