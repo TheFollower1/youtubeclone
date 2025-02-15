@@ -1,9 +1,0 @@
-/* Youtube Clone */
-
-.thumbnail {
-  width: 300px;
-  height: 300px;
-  object-fit: contain;
-  object-position: bottom;
-  border: 2px solid red;
-}
