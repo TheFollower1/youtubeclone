@@ -11,6 +11,17 @@
   margin-bottom: 10px;
 }
 
+@media (max-width: 700px) {
+
+  .video-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 216px;
+  }
+
+}
+
 .video-info-grid {
   display: grid;
   grid-template-columns: 47px 1fr;
