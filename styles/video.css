@@ -72,13 +72,14 @@ a {
   border: 1px solid rgb(206, 206, 206);
   bottom: -65px;
   border-radius: 5px;
-  width: 200px;
+  width: max-content;
   height: 60px;
   left: 12px;
   box-shadow: 1px 0 5px 1px rgba(206,206,206, 1);
   opacity: 0;
   transition: opacity 0.15s;
   pointer-events: none;
+  padding: 5px;
 }
 
 .channel-picture:hover .tooltip {
@@ -89,7 +90,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2px;
 }
 
 .tooltip .profile-picture {
